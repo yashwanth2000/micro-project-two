@@ -80,6 +80,36 @@ a{
     max-width: 50%;
     max-height: 50%;
 }
+
+
+/* social-icons */
+/* .social-icons {
+    position: fixed;
+    top: 40%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.social-icons img{
+    display: block;
+    width: 70px;
+    height: 140px;
+} */
+
+/* floating icon */
+/* .floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.floating-icon img {
+    width: 100px; 
+    height: 100px;
+} */
+
+
 /*  */
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'Inter', sans-serif; */
