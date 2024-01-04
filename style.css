@@ -91,7 +91,7 @@ a {
 /* header end*/
 
 /* main page */
-
+/* hero-container */
 .hero-container {
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +109,7 @@ a {
 }
 
 textarea {
-  width: 750px;
+  width: 1050px;
   height: 450px;
   border-radius: 20px;
   background-color: #e5d8ff;
@@ -123,6 +123,9 @@ textarea {
   outline: none;
 }
 
+/* hero-container end*/
+
+/* card-container */
 .card-container {
   display: flex;
   justify-content: center;
@@ -162,6 +165,123 @@ textarea {
 .card-4 {
   background-color: #000000;
 }
+/* card-container  end*/
+
+/* info-container */
+.info-container{
+  background-color: #483EFF;
+  width: 1000px;
+  height: 450px;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.big-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.info-card-1,
+.info-card-2,
+.info-card-3 {
+  width: 190px;
+  height: 70px;
+  border-radius: 11px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "DM Sans ", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.info-card-1,
+.info-card-2 {
+  margin-bottom: 50px;
+}
+
+.info-card-1{
+  background-color: #BCE0F6;
+}
+
+.info-card-2{
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+}
+
+.info-card-3{
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+}
+
+.right-card{
+  position: relative;
+  width: 650px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 11px;
+  margin: 10px;
+  margin-left: 40px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.right-card h2{
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #04285A;
+}
+
+.right-card p{
+  text-transform: capitalize;
+  color: #143565;
+  padding: 10px;
+  font-family: 'Roboto';
+  letter-spacing: 2px;
+}
+
+label{
+  color: #04285A;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.next-button{
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px;
+  width: 90px;
+  height: 45px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-right{
+  margin: 5px;
+  width: 20px;
+}
+
+/* info-container end */
 
 /* main page end*/
 
