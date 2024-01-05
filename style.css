@@ -247,7 +247,6 @@ textarea {
 }
 
 .right-card p{
-  text-transform: capitalize;
   color: #143565;
   padding: 10px;
   font-family: 'Roboto';
@@ -286,11 +285,13 @@ label{
 /* main page end*/
 
 /* social-icons */
+
 .social-icons {
   position: fixed;
-  top: 40%;
+  top: 30%;
   right: 5px;
-  transform: translateY(-50%);
+  transform: translateY(0%);
+  transition: top 0.3s ease-out;
 }
 
 .social-icons img {
@@ -298,6 +299,11 @@ label{
   width: 70px;
   height: 140px;
 }
+
+.social-icons.sticky {
+   top: 90px;
+}
+
 /* social-icons end*/
 
 /* floating icon */
@@ -313,7 +319,3 @@ label{
   height: 100px;
 }
 /* floating icon end*/
-
-/*  */
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Inter', sans-serif; */
